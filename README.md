@@ -1,16 +1,48 @@
-# React + Vite
+ QueueLess — Queue Management Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+QueueLess is a responsive web application built to demonstrate how technology can make queue management more organised and convenient for customers and staff.
 
-Currently, two official plugins are available:
+ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Service Selection: Choose a service, such as a clinic, salon, bank, or restaurant.
+* Join a Queue: Get a queue number for the selected service.
+* Queue Display: View queue information and customer positions.
+* Staff Dashboard: Explore a staff-facing view for managing queues.
+* Responsive Interface: A user interface designed for different screen sizes.
 
-## React Compiler
+ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* JavaScript
+* Tailwind CSS
+* Vite
 
-## Expanding the Oxlint configuration
+ Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+To run the project locally:
+
+1. Clone the repository:
+
+   `git clone https://github.com/Scheeomah/queueless_project.git`
+
+2. Open the project folder:
+
+   `cd queueless_project`
+
+3. Install dependencies:
+
+   `npm install`
+
+4. Start the development server:
+
+   `npm run dev`
+
+5. Open the local URL displayed in your terminal.
+
+ Project Purpose
+
+QueueLess was built as a frontend development project to practise React, component-based development, state management, and styling with Tailwind CSS.
+
+ Author - Scheeomah
+
+[GitHub Repository](https://github.com/Scheeomah/queueless_project)
